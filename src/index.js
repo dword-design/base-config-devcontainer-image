@@ -7,7 +7,7 @@ export default () => {
   const { scope, fullName } = parsePackagejsonName(packageConfig.name);
 
   const localImageName =
-    fullName === 'devcontainer-image'
+    fullName === 'devcontainer'
       ? 'devcontainer'
       : fullName.replace(/^devcontainer-image-/, '');
 
