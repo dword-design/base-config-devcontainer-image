@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/dword-design/base-config-devcontainer-image/compare/v1.0.1...v1.0.2) (2025-05-08)
+
+
+### Bug Fixes
+
+* add semantic-release-docker ([74a6847](https://github.com/dword-design/base-config-devcontainer-image/commit/74a68477244024a21b240ff03a9d8aafc7937f5b))
+
 ## [1.0.1](https://github.com/dword-design/base-config-devcontainer-image/compare/v1.0.0...v1.0.1) (2025-05-08)
 
 
