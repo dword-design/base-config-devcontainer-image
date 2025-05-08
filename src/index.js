@@ -1,35 +1,32 @@
+import binName from 'depcheck-bin-name';
 import packageName from 'depcheck-package-name';
+import { execaCommand } from 'execa';
 import loadPkg from 'load-pkg';
 import parsePackagejsonName from 'parse-packagejson-name';
 
 export default () => {
   const packageConfig = loadPkg.sync();
-  const { scope, fullName } = parsePackagejsonName(packageConfig.name);
+  const name = parsePackagejsonName(packageConfig.name).fullName;
+  const imageName = `dworddesign/${name.replace(/^docker-/, '')}`;
 
-  const localImageName =
-    fullName === 'devcontainer'
-      ? 'devcontainer'
-      : fullName.replace(/^devcontainer-image-/, '');
+  const build = () => {
+    execaCommand(
+      `pnpm ${binName`devcontainer`} build --workspace-folder . --config index.json --image-name ${imageName}`,
+    );
+  };
 
-  const imageName = `${scope}/${localImageName}`;
   return {
     allowedMatches: ['index.json', 'index.usesdocker.spec.js'],
     ...(!packageConfig.private && {
       deployEnv: {
-        DOCKER_PASSWORD: '${{ secrets.GITHUB_TOKEN }}',
-        DOCKER_USERNAME: '${{ github.actor }}',
+        DOCKER_PASSWORD: '${{ secrets.DOCKER_PASSWORD }}',
+        DOCKER_USERNAME: '${{ secrets.DOCKER_USERNAME }}',
       },
       deployPlugins: [
-        [
-          packageName`semantic-release-docker`,
-          { name: imageName, registryUrl: 'ghcr.io' },
-        ],
+        [packageName`semantic-release-docker`, { name: imageName }],
       ],
-      preDeploySteps: [
-        {
-          run: `npx @devcontainers/cli build --workspace-folder . --config index.json --image-name ghcr.io/${imageName}:latest`,
-        },
-      ],
+      preDeploySteps: [{ run: 'pnpm build' }],
     }),
+    commands: { build, prepublishOnly: build },
   };
 };

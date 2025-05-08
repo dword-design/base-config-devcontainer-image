@@ -22,13 +22,20 @@
     "test": "base test"
   },
   "dependencies": {
+    "@devcontainers/cli": "^0.76.0",
+    "depcheck-bin-name": "^1.0.1",
     "depcheck-package-name": "^3.0.1",
+    "execa": "^9.5.2",
     "load-pkg": "^4.0.0",
     "parse-packagejson-name": "^1.0.1",
     "semantic-release-docker": "^2.2.0"
   },
   "devDependencies": {
-    "@dword-design/base": "^11.3.10"
+    "@dword-design/base": "^11.3.10",
+    "@playwright/test": "^1.52.0",
+    "output-files": "^2.0.32",
+    "playwright-local-tmp-dir": "^1.0.2",
+    "uuid": "^11.1.0"
   },
   "packageManager": "pnpm@10.10.0+sha512.d615db246fe70f25dcfea6d8d73dee782ce23e2245e3c4f6f888249fb568149318637dca73c2c5c8ef2a4ca0d5657fb9567188bfab47f566d1ee6ce987815c39",
   "engines": {
