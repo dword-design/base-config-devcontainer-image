@@ -17,6 +17,9 @@ importers:
       depcheck-package-name:
         specifier: ^3.0.1
         version: 3.0.1
+      execa:
+        specifier: ^9.5.2
+        version: 9.5.2
       load-pkg:
         specifier: ^4.0.0
         version: 4.0.0
@@ -33,9 +36,6 @@ importers:
       '@playwright/test':
         specifier: ^1.52.0
         version: 1.52.0
-      execa:
-        specifier: ^9.5.2
-        version: 9.5.2
       output-files:
         specifier: ^2.0.32
         version: 2.0.32
