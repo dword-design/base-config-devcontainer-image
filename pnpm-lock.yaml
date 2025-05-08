@@ -17,6 +17,9 @@ importers:
       parse-packagejson-name:
         specifier: ^1.0.1
         version: 1.0.1
+      semantic-release-docker:
+        specifier: ^2.2.0
+        version: 2.2.0(semantic-release@22.0.12(typescript@5.8.3))
     devDependencies:
       '@dword-design/base':
         specifier: ^11.3.10
@@ -1089,6 +1092,9 @@ packages:
     engines: {node: ^18.17 || >=20.6.1}
     peerDependencies:
       semantic-release: '>=20.1.0'
+
+  '@semantic-release/error@2.2.0':
+    resolution: {integrity: sha512-9Tj/qn+y2j+sjCI3Jd+qseGtHjOAeg7dU2/lVcqIQ9TV3QDaDXDYXcoOHU+7o2Hwh8L8ymL4gfuO7KxDs3q2zg==}
 
   '@semantic-release/error@3.0.0':
     resolution: {integrity: sha512-5hiM4Un+tpl4cKw3lV4UgzJj+SmfNIDCLLw0TepzQxz9ZGV5ixnqkzIVF+3tp0ZHgcMKE+VNGHJjEeyFG2dcSw==}
@@ -2505,6 +2511,10 @@ packages:
   exec-sh@0.3.6:
     resolution: {integrity: sha512-nQn+hI3yp+oD0huYhKwvYI32+JFeq+XkNcD1GAo3Y/MjxsfVGmrrzrnzjWiNY6f+pUCP440fThsFh5gZrRAU/w==}
 
+  execa@0.10.0:
+    resolution: {integrity: sha512-7XOMnz8Ynx1gGo/3hyV9loYNPWM94jG3+3T3Y8tsfSstFmETmENCMU/A/zj8Lyaj1lkgEepKepvd6240tBRvlw==}
+    engines: {node: '>=4'}
+
   execa@1.0.0:
     resolution: {integrity: sha512-adbxcyWV46qiHyvSp50TKt05tB4tK3HcmF7/nxfAdhnox83seTDbwnaqKO4sXRy7roHAIFqJP/Rw/AuEbX61LA==}
     engines: {node: '>=6'}
@@ -2836,6 +2846,10 @@ packages:
   get-stdin@9.0.0:
     resolution: {integrity: sha512-dVKBjfWisLAicarI2Sf+JuBE/DghV4UzNAVe9yhEJuzeREd3JhOTE9cUaJTeSa77fsbQUK3pcOpJfM59+VKZaA==}
     engines: {node: '>=12'}
+
+  get-stream@3.0.0:
+    resolution: {integrity: sha512-GlhdIUuVakc8SJ6kK0zAFbiGzRFzNnY4jUuEbV9UROo4Y+0Ny4fjvcZFVTeDA4odpFyOQzaw6hXukJSq/f28sQ==}
+    engines: {node: '>=4'}
 
   get-stream@4.1.0:
     resolution: {integrity: sha512-GMat4EJ5161kIy2HevLlr4luNjBgvmj413KaQA7jt4V8B4RDsfpHk7WQ9GVqfYyyx8OS/L66Kox+rJRNklLK7w==}
@@ -4946,6 +4960,12 @@ packages:
   saxes@5.0.1:
     resolution: {integrity: sha512-5LBh1Tls8c9xgGjw3QrMwETmTMVk0oFgvrFSvWx62llR2hcEInrKNZ2GZCCuuy2lvWrdl5jhbpeqc5hRYKFOcw==}
     engines: {node: '>=10'}
+
+  semantic-release-docker@2.2.0:
+    resolution: {integrity: sha512-p5pZuyD05ax2OIJY3MTa9ekPbnR7hw3Pzv79sDELx4/MwHdkxjoLNsbNHnH4RNfgyRYGUfnS3R0CnYv3e713FQ==}
+    engines: {node: '>=8'}
+    peerDependencies:
+      semantic-release: '>=11.0.0 <16.0.0'
 
   semantic-release@22.0.12:
     resolution: {integrity: sha512-0mhiCR/4sZb00RVFJIUlMuiBkW3NMpVIW2Gse7noqEMoFGkvfPPAImEQbkBV8xga4KOPP4FdTRYuLLy32R1fPw==}
@@ -7378,6 +7398,8 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
+  '@semantic-release/error@2.2.0': {}
+
   '@semantic-release/error@3.0.0': {}
 
   '@semantic-release/error@4.0.0': {}
@@ -9078,6 +9100,16 @@ snapshots:
 
   exec-sh@0.3.6: {}
 
+  execa@0.10.0:
+    dependencies:
+      cross-spawn: 6.0.6
+      get-stream: 3.0.0
+      is-stream: 1.1.0
+      npm-run-path: 2.0.2
+      p-finally: 1.0.0
+      signal-exit: 3.0.7
+      strip-eof: 1.0.0
+
   execa@1.0.0:
     dependencies:
       cross-spawn: 6.0.6
@@ -9507,6 +9539,8 @@ snapshots:
   get-stdin@5.0.1: {}
 
   get-stdin@9.0.0: {}
+
+  get-stream@3.0.0: {}
 
   get-stream@4.1.0:
     dependencies:
@@ -11914,6 +11948,12 @@ snapshots:
   saxes@5.0.1:
     dependencies:
       xmlchars: 2.2.0
+
+  semantic-release-docker@2.2.0(semantic-release@22.0.12(typescript@5.8.3)):
+    dependencies:
+      '@semantic-release/error': 2.2.0
+      execa: 0.10.0
+      semantic-release: 22.0.12(typescript@5.8.3)
 
   semantic-release@22.0.12(typescript@5.8.3):
     dependencies:
