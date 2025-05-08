@@ -31,8 +31,8 @@ importers:
         version: 2.2.0(semantic-release@22.0.12(typescript@5.8.3))
     devDependencies:
       '@dword-design/base':
-        specifier: ^11.3.10
-        version: 11.3.10(@babel/core@7.27.1)(@types/node@22.15.15)(@typescript-eslint/parser@8.32.0(eslint@8.57.1)(typescript@5.8.3))(babel-plugin-module-resolver@5.0.2)(jest@27.5.1)(typescript@5.8.3)
+        specifier: ^11.3.11
+        version: 11.3.11(@babel/core@7.27.1)(@types/node@22.15.15)(@typescript-eslint/parser@8.32.0(eslint@8.57.1)(typescript@5.8.3))(babel-plugin-module-resolver@5.0.2)(jest@27.5.1)(typescript@5.8.3)
       '@playwright/test':
         specifier: ^1.52.0
         version: 1.52.0
@@ -772,8 +772,8 @@ packages:
     resolution: {integrity: sha512-2DAHJgEbZAs8PHG7eBRQjgPj6ddsiBhmJHpAKs2d2IAffRctLQRpuIYcvByj2eTvKPfgWmaoFX/HJGblv35WLw==}
     engines: {node: '>=18'}
 
-  '@dword-design/base@11.3.10':
-    resolution: {integrity: sha512-orXJL/AdA6g/3jGmHVUNraU2trdezMO7kUCUVkAXmxd1JpKr54j+3jSB4WyyU30q3+NZvlRSwlzbI87zX4EfTQ==}
+  '@dword-design/base@11.3.11':
+    resolution: {integrity: sha512-Go0eb4Qk0RxDDm7VrJldiDNdn3zrVI4/DQBe1467BS/t5bpf6n9hEytmts6LwqcuUfd2gBkK5DUp87UIoMK6+Q==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -2224,8 +2224,8 @@ packages:
   duplexer2@0.1.4:
     resolution: {integrity: sha512-asLFVfWWtJ90ZyOUHMqk7/S2w2guQKxUI2itj3d92ADHhxUSbCMGi1f1cBcJ7xM1To+pE/Khbwo1yuNbMEPKeA==}
 
-  electron-to-chromium@1.5.150:
-    resolution: {integrity: sha512-rOOkP2ZUMx1yL4fCxXQKDHQ8ZXwisb2OycOQVKHgvB3ZI4CvehOd4y2tfnnLDieJ3Zs1RL1Dlp3cMkyIn7nnXA==}
+  electron-to-chromium@1.5.151:
+    resolution: {integrity: sha512-Rl6uugut2l9sLojjS4H4SAr3A4IgACMLgpuEMPYCVcKydzfyPrn5absNRju38IhQOf/NwjJY8OGWjlteqYeBCA==}
 
   emittery@0.8.1:
     resolution: {integrity: sha512-uDfvUjVrfGJJhymx/kz6prltenw1u7WrCg1oa94zYY8xxVpLLUu045LAT0dhDZdXG58/EpPL/5kA180fQ/qudg==}
@@ -6813,7 +6813,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@dword-design/base@11.3.10(@babel/core@7.27.1)(@types/node@22.15.15)(@typescript-eslint/parser@8.32.0(eslint@8.57.1)(typescript@5.8.3))(babel-plugin-module-resolver@5.0.2)(jest@27.5.1)(typescript@5.8.3)':
+  '@dword-design/base@11.3.11(@babel/core@7.27.1)(@types/node@22.15.15)(@typescript-eslint/parser@8.32.0(eslint@8.57.1)(typescript@5.8.3))(babel-plugin-module-resolver@5.0.2)(jest@27.5.1)(typescript@5.8.3)':
     dependencies:
       '@commitlint/cli': 18.6.1(@types/node@22.15.15)(typescript@5.8.3)
       '@commitlint/config-conventional': 18.6.3
@@ -8139,7 +8139,7 @@ snapshots:
   browserslist@4.24.5:
     dependencies:
       caniuse-lite: 1.0.30001717
-      electron-to-chromium: 1.5.150
+      electron-to-chromium: 1.5.151
       node-releases: 2.0.19
       update-browserslist-db: 1.1.3(browserslist@4.24.5)
 
@@ -8724,7 +8724,7 @@ snapshots:
     dependencies:
       readable-stream: 2.3.8
 
-  electron-to-chromium@1.5.150: {}
+  electron-to-chromium@1.5.151: {}
 
   emittery@0.8.1: {}
 
