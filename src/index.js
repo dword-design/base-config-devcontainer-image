@@ -27,7 +27,7 @@ export default () => {
       ],
       preDeploySteps: [
         {
-          run: `npx @devcontainers/cli build --workspace-folder . --image-name ghcr.io/${imageName}:latest`,
+          run: `npx @devcontainers/cli build --workspace-folder . --config index.json --image-name ghcr.io/${imageName}:latest`,
         },
       ],
     }),
