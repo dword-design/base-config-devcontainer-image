@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/dword-design/base-config-devcontainer-image/compare/v1.0.2...v1.0.3) (2025-05-08)
+
+
+### Bug Fixes
+
+* foo ([0b90ccb](https://github.com/dword-design/base-config-devcontainer-image/commit/0b90ccb313247c19dd46f7687e1688c40ba0eaa6))
+
 ## [1.0.2](https://github.com/dword-design/base-config-devcontainer-image/compare/v1.0.1...v1.0.2) (2025-05-08)
 
 
