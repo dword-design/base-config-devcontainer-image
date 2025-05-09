@@ -12,6 +12,7 @@ export default () => {
   const build = () => {
     execaCommand(
       `pnpm ${binName`devcontainer`} build --workspace-folder . --config index.json --image-name ${imageName}`,
+      { stdio: 'inherit' },
     );
   };
 
