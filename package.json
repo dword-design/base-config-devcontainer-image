@@ -31,7 +31,7 @@
     "semantic-release-docker": "^2.2.0"
   },
   "devDependencies": {
-    "@dword-design/base": "^11.3.11",
+    "@dword-design/base": "^12.0.0",
     "@playwright/test": "^1.52.0",
     "output-files": "^2.0.32",
     "playwright-local-tmp-dir": "^1.0.2",
