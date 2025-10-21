@@ -15,8 +15,8 @@ importers:
         specifier: ^1.0.1
         version: 1.0.1
       depcheck-package-name:
-        specifier: ^3.0.1
-        version: 3.0.1
+        specifier: ^4.0.0
+        version: 4.0.1
       execa:
         specifier: ^9.5.2
         version: 9.5.2
@@ -838,6 +838,7 @@ packages:
   '@dword-design/jiti-babel-transform@2.0.0':
     resolution: {integrity: sha512-sT4TsdN6Id9k0ceZZjznmdIqdk94ZPHI21Pv0v6DeXqWRDxW0BoDVAqTbMjStSPV6n5i4AYRpwLBFN3hxYL2Lw==}
     engines: {node: '>=18'}
+    deprecated: Migrated to TypeScript
 
   '@dword-design/load-pkg@4.0.0':
     resolution: {integrity: sha512-lZxKRusgIqSg2y4jLzZzMPWyhrGPGke3YYmAxj4SoJeUGV4CmvYyhJkJnfA7Yaov7GMXZi64nlhx8D809VDazg==}
@@ -2148,6 +2149,10 @@ packages:
   depcheck-package-name@3.0.1:
     resolution: {integrity: sha512-7rR+VPs0wZCOgAyNe4klyXc+93cXl62pQ4akwHcnQQypdqDC18cy3LNLXmgu8geb3on8pgcxOhfbQ66+yLaNoQ==}
     engines: {node: '>=14'}
+
+  depcheck-package-name@4.0.1:
+    resolution: {integrity: sha512-Jt6XKYnjtC9AMP8+lD+I7J+Fr39e9Ll6O7xg6pzqhxFiCtUuDFPLrY89bMLtXBqFvzTE8h071K33CshYJmRuIg==}
+    engines: {node: '>=20'}
 
   depcheck-parser-babel@3.0.57:
     resolution: {integrity: sha512-a4DDyqQiMrtqutvqwji9B2/eNmRV0aLY60jU/bmyyJYM9A61FgLI1t6d/Rpri38DJkMT7OicpGvCbWRDTvec0A==}
@@ -8663,6 +8668,10 @@ snapshots:
   depcheck-detector-package-name@3.0.4: {}
 
   depcheck-package-name@3.0.1:
+    dependencies:
+      tagged-template-noop: 2.1.1
+
+  depcheck-package-name@4.0.1:
     dependencies:
       tagged-template-noop: 2.1.1
 
