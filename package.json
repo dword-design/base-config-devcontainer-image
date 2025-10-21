@@ -33,7 +33,7 @@
   "devDependencies": {
     "@dword-design/base": "^11.3.11",
     "@playwright/test": "^1.52.0",
-    "output-files": "^2.0.32",
+    "output-files": "^3.0.0",
     "playwright-local-tmp-dir": "^1.0.2",
     "uuid": "^11.1.0"
   },
