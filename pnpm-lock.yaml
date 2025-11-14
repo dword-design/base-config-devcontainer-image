@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@devcontainers/cli':
-        specifier: ^0.76.0
-        version: 0.76.0
+        specifier: ^0.80.0
+        version: 0.80.2
       depcheck-bin-name:
         specifier: ^1.0.1
         version: 1.0.1
@@ -749,8 +749,8 @@ packages:
     resolution: {integrity: sha512-LRjP623jPyf3Poyfb0ohMj8I3ORyBDOwXAgxxVPbSD0unJuW2mJWeiRfaQinjtccMqC5Wy1HOMfa4btKjbNxbg==}
     engines: {node: '>=v18'}
 
-  '@devcontainers/cli@0.76.0':
-    resolution: {integrity: sha512-LeXAmduPfpr3dGp7A6536a9drqUOxr5qJ96eF/bnVgeJHapFFPP0ABmcZlF/gCNHwATIh29B0f3rGZJpgLVG/g==}
+  '@devcontainers/cli@0.80.2':
+    resolution: {integrity: sha512-lBPrgwOwZZlo/Ypk1U51M2oR+zWg/iQlqInIFtGmn0lSg5qLIY2fNw3L0MhFfeMTFG82upzW8fXo7jYALYYq3w==}
     engines: {node: ^16.13.0 || >=18.0.0}
     hasBin: true
 
@@ -6776,7 +6776,7 @@ snapshots:
       chalk: 5.4.1
     optional: true
 
-  '@devcontainers/cli@0.76.0': {}
+  '@devcontainers/cli@0.80.2': {}
 
   '@dword-design/babel-config@4.2.1(@babel/core@7.27.1)':
     dependencies:
