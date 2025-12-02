@@ -17,7 +17,7 @@ export default () => {
   };
 
   return {
-    allowedMatches: ['index.json', 'index.spec.js'],
+    allowedMatches: ['Dockerfile', 'index.json', 'index.spec.js'],
     ...(!packageConfig.private && {
       deployEnv: {
         DOCKER_PASSWORD: '${{ secrets.DOCKER_PASSWORD }}',
