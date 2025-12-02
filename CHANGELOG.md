@@ -1,3 +1,17 @@
+# [2.0.0](https://github.com/dword-design/base-config-devcontainer-image/compare/v1.0.5...v2.0.0) (2025-12-02)
+
+
+### Bug Fixes
+
+* add Dockerfile to allowed matches ([4bd50e4](https://github.com/dword-design/base-config-devcontainer-image/commit/4bd50e420c4bccb80335cb62fac19fb0dab15016))
+* lock file maintenance ([#14](https://github.com/dword-design/base-config-devcontainer-image/issues/14)) ([d0ec009](https://github.com/dword-design/base-config-devcontainer-image/commit/d0ec0093aaa51b8800779d06b20bd4f456f57878))
+* trigger release ([cd27001](https://github.com/dword-design/base-config-devcontainer-image/commit/cd270010be00cd9f2e67fa527cc05e0c1af0bc07))
+
+
+### BREAKING CHANGES
+
+* node >= 22
+
 ## [1.0.5](https://github.com/dword-design/base-config-devcontainer-image/compare/v1.0.4...v1.0.5) (2025-05-09)
 
 
