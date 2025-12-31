@@ -250,6 +250,7 @@ packages:
   '@dword-design/defu@1.0.3':
     resolution: {integrity: sha512-QEM8a6CPIrMvudnuNDwr3IxWJ0dcMKG9tgxt3zuPk/NmXV0ejk4qxQJ1PfquJwRzu59UsqNpUAACMG485VMIUA==}
     engines: {node: '>=18'}
+    deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
 
   '@dword-design/depcheck-parser-sass@5.0.0':
     resolution: {integrity: sha512-WXVEIWxgS3G4kXhb1IgU9i+cJO7kkx6qAwibeqsnjzuFQaIfzQlHvbPyoU3DPc6SvRYREQdzNB1CFg9MC79abw==}
@@ -293,6 +294,7 @@ packages:
 
   '@dword-design/parse-packagejson-name-fork@0.0.2':
     resolution: {integrity: sha512-6LckFuPUyCX+f7EIlqdPzBfjPrkVQQlhO90sXuSmHOGV4/hWImW5dinYrTGB1FKSBymlp7Br2LN6qB/C+FVlmg==}
+    deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
 
   '@dword-design/personal-data@3.0.0':
     resolution: {integrity: sha512-ZC0Wb4O5hQB0016zjut7OMIa/x4ZU40caQHymCQNZIPOE9R54yfWMKfmsU337KPJaXBBWo0d15UhcOzRTJkG6w==}
