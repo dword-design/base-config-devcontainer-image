@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@devcontainers/cli':
-        specifier: ^0.80.2
-        version: 0.80.2
+        specifier: ^0.89.0
+        version: 0.89.0
       '@dword-design/base':
         specifier: ^16.0.10
         version: 16.0.10(@types/node@24.10.1)(@typescript-eslint/parser@8.48.1(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3))(@typescript-eslint/utils@8.48.1(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3))(@vue/compiler-core@3.5.25)(esbuild@0.27.0)
@@ -225,9 +225,9 @@ packages:
     resolution: {integrity: sha512-bVUNBqG6aznYcYjTjnc3+Cat/iBgbgpflxbIBTnsHTX0YVpnmINPEkSRWymT2Q8aSH3Y7aKnEbunilkYe8TybA==}
     engines: {node: '>=v18'}
 
-  '@devcontainers/cli@0.80.2':
-    resolution: {integrity: sha512-lBPrgwOwZZlo/Ypk1U51M2oR+zWg/iQlqInIFtGmn0lSg5qLIY2fNw3L0MhFfeMTFG82upzW8fXo7jYALYYq3w==}
-    engines: {node: ^16.13.0 || >=18.0.0}
+  '@devcontainers/cli@0.89.0':
+    resolution: {integrity: sha512-LzaoOGKQ/Zql6PsiZ4hVIYVZagzWkD65aG/1ou5/Kly5Y1PtjLg1yn7qu+LZCzVoAl6DZZ/pbz8qOO4RLNlqMg==}
+    engines: {node: '>=20.0.0'}
     hasBin: true
 
   '@dword-design/base-config-node@5.0.1':
@@ -1983,6 +1983,7 @@ packages:
   eslint@9.39.1:
     resolution: {integrity: sha512-BhHmn2yNOFA9H9JmmIVKJmd288g9hrVRDkdoIgRCRuSySRUHH7r/DI6aAXW9T1WwUuY3DFgrcaqB+deURBLR5g==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
+    deprecated: This version is no longer supported. Please see https://eslint.org/version-support for other options.
     hasBin: true
     peerDependencies:
       jiti: '*'
@@ -4662,7 +4663,7 @@ snapshots:
       chalk: 5.6.2
     optional: true
 
-  '@devcontainers/cli@0.80.2': {}
+  '@devcontainers/cli@0.89.0': {}
 
   '@dword-design/base-config-node@5.0.1(@types/node@24.10.1)(@typescript-eslint/parser@8.48.1(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3))(@typescript-eslint/utils@8.48.1(eslint@9.39.1(jiti@2.6.1))(typescript@5.9.3))(@vue/compiler-core@3.5.25)(esbuild@0.27.0)':
     dependencies:
