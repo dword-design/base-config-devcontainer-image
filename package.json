@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "@devcontainers/cli": "^0.80.2",
-    "@dword-design/base": "^16.0.10",
+    "@dword-design/base": "^17.0.0",
     "depcheck-bin-name": "^2.0.0",
     "depcheck-package-name": "^4.0.1",
     "execa": "^9.5.2",
