@@ -29,7 +29,7 @@
     "verify": "base verify"
   },
   "dependencies": {
-    "@devcontainers/cli": "^0.80.2",
+    "@devcontainers/cli": "^0.89.0",
     "@dword-design/base": "^16.0.10",
     "depcheck-bin-name": "^2.0.0",
     "depcheck-package-name": "^4.0.1",
