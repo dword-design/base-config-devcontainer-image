@@ -31,7 +31,7 @@
   "dependencies": {
     "@devcontainers/cli": "^0.80.2",
     "@dword-design/base": "^16.0.10",
-    "depcheck-bin-name": "^2.0.0",
+    "depcheck-bin-name": "^3.0.0",
     "depcheck-package-name": "^4.0.1",
     "execa": "^9.5.2",
     "parse-packagejson-name": "npm:@dword-design/parse-packagejson-name-fork@^0.0.2",
